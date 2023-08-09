@@ -54,11 +54,11 @@ function App() {
             </div>
             <div className='wind'>
               <h2>Speed</h2>
-              {data.main ? <h2>{data.wind.speed.toFixed()}</h2> : null}
+              {data.main ? <h2>{data.wind.speed.toFixed()} MPH</h2> : null}
             </div>
           </div>
         </div>
-        
+
       </div>
   );
 }
